@@ -1,47 +1,40 @@
-# Getting Started with Create React App
+# $BOBS - The Decentralized Meme Coin on Avalanche Network
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Disclaimer
 
-## Available Scripts
+$BOBS is a decentralized meme coin on the Avalanche network created for entertainment purposes. It does not constitute financial advice, and participation in $BOBS is at the user's own risk. Please conduct thorough research before engaging, as crypto investments carry inherent risks. Always exercise caution and discretion in the volatile crypto space.
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+Embracing the spirit of community hilarity, $BOBS is more than just a meme coin on the Avalanche network; it's a digital symphony of laughter and camaraderie. Created to infuse joy into the crypto space, $BOBS stands as a testament to the whimsical fusion of blockchain and meme culture.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Token Details
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Token Symbol:** $BOBS
+- **Total Supply:** 808,580,858,085
 
-### `npm test`
+## How to Buy
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can purchase $BOBS on the DEX Trader Joe on the Avalanche network. The trading pair is $BOBS/AVAX.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get started with $BOBS, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Ensure you have an Avalanche-compatible wallet.
+2. Visit the Trader Joe DEX on the Avalanche network.
+3. Locate the $BOBS/AVAX trading pair.
+4. Connect your wallet and initiate the trade.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions to the $BOBS project are welcome! If you have ideas for improvements, feature requests, or want to report issues, please open an issue or create a pull request on this GitHub repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is licensed under the [MIT License](LICENSE).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Disclaimer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This README is for informational purposes only and is not intended as financial advice. Use $BOBS at your own risk.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# bobsonavax
