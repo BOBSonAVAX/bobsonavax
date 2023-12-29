@@ -10,9 +10,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Play', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.modal-wrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Black background with some transparency */
+}
+
+.roadmap {
+  background-image: url("./components//images/bobsmap2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.buycomp {
+  background-image: url("./components//images/buypicsmall.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.quick-desc {}
+
+
+
+@media (min-width:950px) {}
+
+
+
+
+
+@media (min-width:1200px) {
+
+
+  .roadmap {
+    background-image: url("./components//images/bobsmap.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+  }
+
+
+  .buycomp {
+    background-image: url("./components//images/buypiclarge.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+
+  }
+
+
+
+
 }
