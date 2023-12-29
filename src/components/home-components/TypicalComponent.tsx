@@ -28,7 +28,7 @@ const TypicalComponent: React.FC = () => {
                 repeat={Infinity}
             />
 
-            <div className="absolute -bottom-10 right-5 rounded-full shadow-2xl md:right-10 md:-bottom-12 lg:right-40">
+            <div className="absolute -bottom-10 right-5 rounded-full shadow-2xl md:right-10 md:-bottom-12 lg:right-30">
                 <img className="h-20 w-20 md:h-24 md:w-24 lg:h-32 lg:w-32" src={avalanche} alt="AVAX Logo" />
             </div>
         </div>

@@ -3,7 +3,7 @@ import dexscreener from "./images/dexscreener.jpg"
 import twitter from "./images/X_logo_2023_(white).png"
 import tg from "./images/tg.png"
 import { GithubOutlined, MenuOutlined, CloseOutlined } from "@ant-design/icons"
-import { Tooltip, ConfigProvider, Modal, Drawer, DrawerProps } from 'antd';
+import { Tooltip, ConfigProvider, Modal, Drawer } from 'antd';
 import { useState } from "react"
 
 
@@ -20,7 +20,6 @@ const Navbar: React.FC = () => {
 
     const [open, setOpen] = useState(false);
     const [openApp, setOpenApp] = useState(false);
-    const [placement, setPlacement] = useState<DrawerProps['placement']>('left');
 
     const showModal = () => {
         setOpen(false)
@@ -30,13 +29,13 @@ const Navbar: React.FC = () => {
         setOpenBuy(false);
     };
 
-    const showModalApp = () => {
-        setOpen(false)
-        setOpenApp(true);
-    };
-    const handleOkApp = () => {
-        setOpenApp(false);
-    };
+    // const showModalApp = () => {
+    //     setOpen(false)
+    //     setOpenApp(true);
+    // };
+    // const handleOkApp = () => {
+    //     setOpenApp(false);
+    // };
 
     const handleCancelApp = () => {
         setOpenApp(false);
@@ -88,8 +87,8 @@ const Navbar: React.FC = () => {
                         <button className="hover:text-white ease-in-out duration-300">App</button>
                     </Tooltip>
                     <button className="hover:text-white ease-in-out duration-300" onClick={showModal}>Buy</button>
-                    <a href="https://github.com/BOBSonAVAX" target="_blank" rel="noreferrer">
-                        <button className="hover:text-white ease-in-out duration-300">Protocol</button>
+                    <a href="https://dune.com/xibumi/bobs-analytics" target="_blank" rel="noreferrer">
+                        <button className="hover:text-white ease-in-out duration-300">Dune</button>
                     </a>
 
                     <Tooltip placement="bottom" title={text}>
@@ -209,11 +208,11 @@ const Navbar: React.FC = () => {
 
             <Drawer
                 title="MENU"
-                placement={placement}
+                placement="left"
                 closable={true}
                 onClose={onClose}
                 open={open}
-                key={placement}
+                key="left"
                 closeIcon={<CloseOutlined style={{ color: 'white' }} />}
 
             >
@@ -228,7 +227,11 @@ const Navbar: React.FC = () => {
 
 
                         <a className="text-start" href="https://github.com/BOBSonAVAX" target="_blank" rel="noreferrer">
-                            <button className="hover:text-white ease-in-out duration-300">Protocol</button>
+                            <button className="hover:text-white ease-in-out duration-300">Github</button>
+                        </a>
+
+                        <a className="text-start" href="https://dune.com/xibumi/bobs-analytics" target="_blank" rel="noreferrer">
+                            <button className="hover:text-white ease-in-out duration-300">Dune</button>
                         </a>
 
                         <p className=" text-start text-white ease-in-out duration-300 mt-20">Coming soon ...</p>

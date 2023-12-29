@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
 
                         <p className="text-xs md:text-lg">
 
-                            Disclaimer: $BOBS is a decentralized meme coin on the Avalanche network created for entertainment purposes. It does not constitute financial advice, and participation in $BOBS is at the user's own risk. Please conduct thorough research before engaging, as crypto investments carry inherent risks. Always exercise caution and discretion in the volatile crypto space.
+                            Disclaimer: $BOBS is a decentralized meme coin on the Avalanche network with no intrinsic value or expectation of financial return. There is no formal team or roadmap. The coin is for entertainment purposes only. Nothing on this website constitutes financial advice, and participation in $BOBS is at the user's own risk. Please conduct thorough research before engaging, as crypto investments carry inherent risks. Always exercise caution and discretion in the volatile crypto space.
 
                         </p>
                     </div>

@@ -3,11 +3,11 @@ import PairDexscreener from "../interfaces/PairInterface";
 
 
 
-interface Statistics {
+interface Stats {
     data: PairDexscreener | undefined
 }
 
-const Statistics: React.FC<Statistics> = (data) => {
+const Statistics: React.FC<Stats> = (data) => {
 
 
 
