@@ -7,9 +7,6 @@ import { Tooltip, ConfigProvider, Modal, Drawer } from 'antd';
 import { useState } from "react"
 
 
-
-const text = <span>Coming soon</span>;
-
 const buttonWidth = 80;
 
 
@@ -83,21 +80,24 @@ const Navbar: React.FC = () => {
 
 
                 <div className=" w-full  px-5 hidden lg:flex  gap-5 font-semibold text-lg justify-center">
-                    <Tooltip placement="bottom" title={text}>
-                        <button className="hover:text-white ease-in-out duration-300">App</button>
-                    </Tooltip>
                     <button className="hover:text-white ease-in-out duration-300" onClick={showModal}>Buy</button>
+
                     <a href="https://dune.com/xibumi/bobs-analytics" target="_blank" rel="noreferrer">
                         <button className="hover:text-white ease-in-out duration-300">Dune</button>
                     </a>
 
-                    <Tooltip placement="bottom" title={text}>
-                        <button className="hover:text-white ease-in-out duration-300">Governance</button>
-                    </Tooltip>
+                    <a className="hover:text-white" href="https://app.bobsonavax.com/">
+                        <button className=" text-start ease-in-out duration-300">App</button>
+                    </a>
 
-                    <Tooltip placement="bottom" title={text}>
+                    <a className="hover:text-white" href="https://app.bobsonavax.com/governance">
+                        <button className=" text-start ease-in-out duration-300">Governance</button>
+                    </a>
+
+                    <a className="hover:text-white" href="https://docs.bobsonavax.com/" target="_blank" rel="noreferrer">
                         <button className="hover:text-white ease-in-out duration-300">Docs</button>
-                    </Tooltip>
+                    </a>
+
                 </div>
 
 
@@ -132,12 +132,12 @@ const Navbar: React.FC = () => {
                     </div>
 
                     <div className=" ">
-                        <Tooltip placement="bottom" title={text}>
+                        <a className="hover:text-white" href="https://app.bobsonavax.com/">
                             <button
                                 // onClick={showModalApp}
                                 className="bg-black w-32 rounded-md  text-white px-3 py-2 hover:bg-slate-800 ease-in-out duration-300">Launch App</button>
 
-                        </Tooltip>
+                        </a>
                     </div>
                 </div>
 
@@ -234,13 +234,17 @@ const Navbar: React.FC = () => {
                             <button className="hover:text-white ease-in-out duration-300">Dune</button>
                         </a>
 
-                        <p className=" text-start text-white ease-in-out duration-300 mt-20">Coming soon ...</p>
+                        <a className="text-white" href="https://app.bobsonavax.com/" target="_blank" rel="noreferrer">
+                            <button className=" text-start ease-in-out duration-300">App</button>
+                        </a>
 
-                        <button className=" text-start ease-in-out duration-300">App</button>
+                        <a className="text-white" href="https://app.bobsonavax.com/governance" target="_blank" rel="noreferrer">
+                            <button className=" text-start ease-in-out duration-300">Governance</button>
+                        </a>
 
-                        <button className=" text-start ease-in-out duration-300">Governance</button>
-
-                        <button className=" text-start ease-in-out duration-300">Docs</button>
+                        <a className="text-white" href="https://docs.bobsonavax.com/" target="_blank" rel="noreferrer">
+                            <button className="hover:text-white ease-in-out duration-300">Docs</button>
+                        </a>
                     </div>
 
 
