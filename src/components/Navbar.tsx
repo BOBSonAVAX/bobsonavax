@@ -3,7 +3,7 @@ import dexscreener from "./images/dexscreener.jpg"
 import twitter from "./images/X_logo_2023_(white).png"
 import tg from "./images/tg.png"
 import { GithubOutlined, MenuOutlined, CloseOutlined } from "@ant-design/icons"
-import { Tooltip, ConfigProvider, Modal, Drawer } from 'antd';
+import { ConfigProvider, Modal, Drawer } from 'antd';
 import { useState } from "react"
 
 
